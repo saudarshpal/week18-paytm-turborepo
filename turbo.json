@@ -16,6 +16,23 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+     "db:migrate:dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "db:migrate:reset": {
+      "cache": false
+    },
+    "db:push": {
+      "cache": false
+    },
+    "db:studio": {
+      "cache": false
+    },
+    "db:generate": {
+      "dependsOn": ["^generate"],
+      "cache": false
     }
   }
 }
