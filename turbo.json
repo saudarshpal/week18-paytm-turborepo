@@ -31,7 +31,6 @@
       "cache": false
     },
     "db:generate": {
-      "dependsOn": ["^generate"],
       "cache": false
     }
   }
